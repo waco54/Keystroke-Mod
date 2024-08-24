@@ -1,1 +1,79 @@
+.keystokes-container {
+    display: inline-block;
+    margin-left: 200px;
+}
 
+.wasd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: red;
+    font-family: monospace, sans-serif;
+    font-size: 22px;
+    user-select: none;
+    transition: 0.1s;
+}
+
+.bottom-row {
+  display: flex;
+}
+
+.keyboard {
+  width: 55px;
+  height: 55px;
+}
+
+.mouse-buttons {
+  display: flex;
+}
+
+.shift {
+  height: 30px;
+}
+
+.edit {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.edit-icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.edit-box {
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.settings-title {
+    background-color: orange;
+    cursor: grab;
+    text-align: center;
+}
+
+.edit-property {
+    display: flex;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+input {
+    outline: none;
+}
+
+.save {
+    cursor: pointer;
+}
